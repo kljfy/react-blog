@@ -1,0 +1,33 @@
+@import '@scss/color.scss';
+
+.root {
+  height: 100%;
+  :global {
+    ul {
+      overflow: hidden;
+      li {
+        float: left;
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: $nav-font-color;
+        .label {
+          width: 80px;
+          height: 30px;
+          line-height: 30px;
+          margin: 10px auto;
+          border-radius: 3px;
+          cursor: pointer;
+          &:hover {
+            background-color: #eee;
+          }
+        }
+        .label-active {
+          background-color: #eee;
+          color: $nav-bgc;
+        }
+      }
+    }
+  }
+}

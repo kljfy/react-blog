@@ -1,0 +1,39 @@
+.root {
+  padding-top: 20px;
+  :global {
+    .md-view-body {
+      position: relative;
+      width: 1000px;
+      margin: 0 auto;
+      padding-top: 20px;
+      border-radius: 20px;
+      .upload-div {
+        position: absolute;
+        width: 250px;
+        top: 77px;
+        right: -280px;
+        .upload-btn {
+          padding-bottom: 20px;
+        }
+      }
+      .md-edit {
+        height: calc(100vh - 300px) !important;
+        .w-md-editor {
+          height: 100% !important;
+        }
+      }
+    }
+  }
+}
+:global {
+  .md-picture-flow {
+    .flow-content {
+      width: 1100px;
+      column-count: 4;
+      column-gap: 20px;
+    }
+    .ant-empty {
+      margin: 150px auto 0;
+    }
+  }
+}

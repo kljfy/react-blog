@@ -1,0 +1,48 @@
+.root {
+  :global {
+    .person-info {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 1px 1px 2px 2px #fff;
+      padding: 20px;
+      .head-portrait {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        .avator {
+          width: 100px;
+          height: 100%;
+          border-radius: 50px;
+          overflow: hidden;
+          .avator-img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      .name {
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 18px;
+        color: #333;
+      }
+      .person-signature {
+        padding: 10px;
+        color: #999;
+        text-align: center;
+      }
+      .tags {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        .tag {
+          width: 100px;
+          display: flex;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

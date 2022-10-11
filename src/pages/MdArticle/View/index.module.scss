@@ -1,0 +1,25 @@
+.root {
+  padding-top: 20px;
+  :global {
+    .md-view-body {
+      width: 1000px;
+      margin: 0px auto;
+      border: 20px solid #fff;
+      border-radius: 20px;
+      .title {
+        padding-bottom: 20px;
+        font-size: 22px;
+        background-color: #fff;
+      }
+      .description {
+        padding-bottom: 20px;
+        font-size: 18px;
+        background-color: #fff;
+      }
+      .go-edit-btn {
+        padding-bottom: 20px;
+        background-color: #fff;
+      }
+    }
+  }
+}

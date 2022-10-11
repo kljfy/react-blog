@@ -1,0 +1,26 @@
+.root {
+  margin: auto 0;
+  :global {
+    .person-data {
+      .ant-space {
+        width: 200px;
+      }
+    }
+    .ant-dropdown-trigger {
+      color: #fff;
+    }
+    .go-to-login {
+      width: 60px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      cursor: pointer;
+      color: #fff;
+      &:hover {
+        background-color: #fff;
+        border-radius: 5px;
+        color: #333;
+      }
+    }
+  }
+}

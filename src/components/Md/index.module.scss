@@ -1,0 +1,8 @@
+.root {
+  width: 100%;
+  :global {
+    .md-edit-my {
+      height: calc(100vh - 300px) !important;
+    }
+  }
+}

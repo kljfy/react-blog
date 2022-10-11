@@ -1,0 +1,12 @@
+.root {
+  :global {
+    .manage-body {
+      width: 1300px;
+      margin: 0 auto;
+      padding-top: 20px;
+      .input-search {
+        height: 50px;
+      }
+    }
+  }
+}

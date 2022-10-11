@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/574.4fe84470.css","mappings":"AAEI,qCAEE,cACA,iBAFA,YAEA","sources":["webpack://react-blog/./src/pages/PersonCenter/index.module.scss"],"sourcesContent":[".root {\r\n  :global {\r\n    .person-center {\r\n      width: 1000px;\r\n      margin: 0 auto;\r\n      padding-top: 40px;\r\n    }\r\n  }\r\n}"],"names":[],"sourceRoot":""}

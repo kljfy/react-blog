@@ -1,0 +1,26 @@
+.root {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 2px #ddd;
+  :global {
+    .img-flow-item {
+      padding: 10px;
+      .picture-title {
+        text-align: center;
+        font-size: 14px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 30px;
+        line-height: 30px;
+      }
+      .operate-btn {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+      }
+    }
+  }
+}
